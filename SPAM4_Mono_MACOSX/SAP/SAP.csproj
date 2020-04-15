@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0E0ADE2-FFB0-44AC-81AD-1970A0A5013B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAP</RootNamespace>
+    <AssemblyName>SAP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountType.Designer.cs">
+      <DependentUpon>AccountType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSap.Designer.cs">
+      <DependentUpon>AddSap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChartOfAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartOfAccounts.Designer.cs">
+      <DependentUpon>ChartOfAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FAMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FAMainForm.Designer.cs">
+      <DependentUpon>FAMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupForm.Designer.cs">
+      <DependentUpon>GroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JournalAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JournalAdd.Designer.cs">
+      <DependentUpon>JournalAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JournalDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JournalDelete.Designer.cs">
+      <DependentUpon>JournalDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JournalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JournalForm.Designer.cs">
+      <DependentUpon>JournalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainReportForm.Designer.cs">
+      <DependentUpon>MainReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountType.resx">
+      <DependentUpon>AccountType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSap.resx">
+      <DependentUpon>AddSap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChartOfAccounts.resx">
+      <DependentUpon>ChartOfAccounts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FAMainForm.resx">
+      <DependentUpon>FAMainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupForm.resx">
+      <DependentUpon>GroupForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JournalAdd.resx">
+      <DependentUpon>JournalAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JournalDelete.resx">
+      <DependentUpon>JournalDelete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JournalForm.resx">
+      <DependentUpon>JournalForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainReportForm.resx">
+      <DependentUpon>MainReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowBalanceSheet.resx">
+      <DependentUpon>ShowBalanceSheet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowJournal.resx">
+      <DependentUpon>ShowJournal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowLedger.resx">
+      <DependentUpon>ShowLedger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowP_L.resx">
+      <DependentUpon>ShowP_L.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowBalanceSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowBalanceSheet.Designer.cs">
+      <DependentUpon>ShowBalanceSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowJournal.Designer.cs">
+      <DependentUpon>ShowJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowLedger.Designer.cs">
+      <DependentUpon>ShowLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowP_L.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowP_L.Designer.cs">
+      <DependentUpon>ShowP_L.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BizLayer\AccountLayer.csproj">
+      <Project>{76015DDE-4741-4118-B0AD-2D009C40AB28}</Project>
+      <Name>AccountLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GUILayer\GUILayer.csproj">
+      <Project>{3141C3AF-67C9-4407-9F30-42FF41FA7DB1}</Project>
+      <Name>GUILayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HTMLRenderKit\HTMLRenderKit.csproj">
+      <Project>{3CFD3DA7-660F-4B4C-B59D-A7E82BBF7A37}</Project>
+      <Name>HTMLRenderKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ValidationLayer\ValidationLayer.csproj">
+      <Project>{2777A0F5-D0CC-466C-8CA0-0FA92E99AA37}</Project>
+      <Name>ValidationLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

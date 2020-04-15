@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAP", "SAP\SAP.csproj", "{B0E0ADE2-FFB0-44AC-81AD-1970A0A5013B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigLayer", "Config\ConfigLayer.csproj", "{AE3E9A9F-7F06-4C07-8B9B-79233FFF41ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbLayer", "DbLayer\DbLayer.csproj", "{EC5D808D-E0B1-4256-AF0B-86BA94FB027D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountLayer", "BizLayer\AccountLayer.csproj", "{76015DDE-4741-4118-B0AD-2D009C40AB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUILayer", "GUILayer\GUILayer.csproj", "{3141C3AF-67C9-4407-9F30-42FF41FA7DB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationLayer", "ValidationLayer\ValidationLayer.csproj", "{2777A0F5-D0CC-466C-8CA0-0FA92E99AA37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLRenderKit", "HTMLRenderKit\HTMLRenderKit.csproj", "{3CFD3DA7-660F-4B4C-B59D-A7E82BBF7A37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0E0ADE2-FFB0-44AC-81AD-1970A0A5013B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E0ADE2-FFB0-44AC-81AD-1970A0A5013B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E0ADE2-FFB0-44AC-81AD-1970A0A5013B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E0ADE2-FFB0-44AC-81AD-1970A0A5013B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3E9A9F-7F06-4C07-8B9B-79233FFF41ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3E9A9F-7F06-4C07-8B9B-79233FFF41ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3E9A9F-7F06-4C07-8B9B-79233FFF41ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3E9A9F-7F06-4C07-8B9B-79233FFF41ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5D808D-E0B1-4256-AF0B-86BA94FB027D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5D808D-E0B1-4256-AF0B-86BA94FB027D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5D808D-E0B1-4256-AF0B-86BA94FB027D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5D808D-E0B1-4256-AF0B-86BA94FB027D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76015DDE-4741-4118-B0AD-2D009C40AB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76015DDE-4741-4118-B0AD-2D009C40AB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76015DDE-4741-4118-B0AD-2D009C40AB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76015DDE-4741-4118-B0AD-2D009C40AB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3141C3AF-67C9-4407-9F30-42FF41FA7DB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3141C3AF-67C9-4407-9F30-42FF41FA7DB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3141C3AF-67C9-4407-9F30-42FF41FA7DB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3141C3AF-67C9-4407-9F30-42FF41FA7DB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2777A0F5-D0CC-466C-8CA0-0FA92E99AA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2777A0F5-D0CC-466C-8CA0-0FA92E99AA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2777A0F5-D0CC-466C-8CA0-0FA92E99AA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2777A0F5-D0CC-466C-8CA0-0FA92E99AA37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CFD3DA7-660F-4B4C-B59D-A7E82BBF7A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFD3DA7-660F-4B4C-B59D-A7E82BBF7A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFD3DA7-660F-4B4C-B59D-A7E82BBF7A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFD3DA7-660F-4B4C-B59D-A7E82BBF7A37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

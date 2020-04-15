@@ -1,0 +1,59 @@
+unit table
+----------
+ucode char(5),
+uname char(25)
+
+IGroup Table
+-----------
+groupcode char(3),
+groupname char(25)
+
+
+ItemMaster Table
+----------
+
+itemcode char(10),
+itemdesc varchar(50),
+itemgroup char(3)(fk)
+unit char(5)(fk)
+rate decimal(10,2) null
+qty decimal(10,2)null
+stockvalue decimal(15,2)null
+
+
+party table
+-------------
+partycode char(7)
+partyname char(50)
+party_acccode char(5)
+address1 varchar(50)
+address2 varchar(50)
+phone char(15)
+fax char(15)
+city char(10)
+other detaild varchar(250)
+
+
+Trade Table
+-------------
+invono char(10) (pk),
+invodate  datetime,
+customer char(7)(fk),
+invocat char(1),
+invogrosstt decimal(10,2),
+invonettt decimal(10,2),
+jounalno char(10),
+discount decimal,
+frieght decimal
+
+TradeItem Table
+----------------
+
+invno char(10)(pk),
+qty decimal
+rate decimal
+unit
+tvalue
+
+
+

@@ -1,0 +1,6 @@
+F:\SAP\SAP\SAP\bin\Debug\SAP.exe
+F:\SAP\SAP\SAP\bin\Debug\BizLayer.dll
+F:\SAP\SAP\SAP\bin\Debug\GUILayer.dll
+F:\SAP\SAP\SAP\bin\Debug\DbLayer.dll
+F:\SAP\SAP\SAP\bin\Debug\Config.dll
+F:\SAP\SAP\SAP\bin\Debug\SAP.exe.config
